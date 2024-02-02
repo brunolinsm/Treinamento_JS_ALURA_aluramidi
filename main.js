@@ -6,8 +6,10 @@ function tocaSom(seletorSom){
     if (somEscolhido != null && somEscolhido.localName === 'audio'){
      somEscolhido.play();
      }
-    
-     alert('Elemento não encontrado ou seletor inválido!');
+     
+    else{
+        alert('Elemento não encontrado ou seletor inválido!');
+    }
 }
 
 for(let contador = 0; contador < listaDeTeclas.length; contador++){
